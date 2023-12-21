@@ -1,0 +1,28 @@
+header {
+  background-color: rgb(226, 226, 226);
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    h2 {
+      color: rgb(82, 7, 167);
+    }
+    nav {
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        li:hover {
+          background-color: aqua;
+          padding: 3px;
+          border-radius: 10px;
+          a {
+            color: rgb(82, 7, 167);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+footer {
+  background-color: rgb(172, 172, 162);
+  padding: 80px;
+  .footer {
+    .footer-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 30px;
+    }
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      input {
+        padding: 10px 280px;
+        border: none;
+      }
+      button {
+        position: absolute;
+        right: 295px;
+        padding: 10px 50px;
+        border: none;
+        background-color: rgb(92, 92, 155);
+        color: white;
+      }
+      .icons {
+        position: absolute;
+        right: 13px;
+        display: flex;
+        gap: 10px;
+        .icon {
+          font-size: 20px;
+          background-color: rgb(255, 255, 255);
+          color: rgb(92, 92, 155);
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
