@@ -1,0 +1,47 @@
+#section {
+  height: 120vh;
+  padding-top: 250px;
+  background-color: #e5e5e5;
+}
+#section .section {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+#section .section p:nth-child(1) {
+  font-size: 1.2rem;
+  color: #eb566c;
+}
+#section .section h1 {
+  font-size: 3rem;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: #092c3f;
+}
+#section .section .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#section .section .cards .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#section .section .cards .card h2{
+  color: #041823;
+
+}
+#section .section .cards .card p {
+  width: 60%;
+  color: #092c3f;
+
+}

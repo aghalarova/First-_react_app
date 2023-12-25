@@ -1,0 +1,53 @@
+#section-members {
+  background-color: antiquewhite;
+  height: 130vh;
+}
+#section-members .section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+#section-members .section .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+#section-members .section .text p {
+  color: #eb566c;
+  font-size: 1.4rem;
+}
+#section-members .section .text h1 {
+  font-size: 3rem;
+  color: #092c3f;
+}
+#section-members .section .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#section-members .section .cards .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  background-color: azure;
+  padding-bottom: 30px;
+}
+#section-members .section .cards .card img {
+  width: 100%;
+}
+#section-members .section .cards .card h3 {
+  font-size: 1.4rem;
+  color: #092c3f;
+}
+#section-members .section .cards .card p {
+  color: #eb566c;
+}
