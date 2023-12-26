@@ -1,0 +1,74 @@
+#blog-section {
+  background-color: #f7f7f7;
+  height: 130vh;
+  padding: 100px 0;
+}
+#blog-section .blog-section {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+#blog-section .blog-section .blog-text h3 {
+  font-size: 1.5rem;
+  color: #092c3f;
+}
+#blog-section .blog-section .blog-text h1 {
+  font-size: 3rem;
+  color: #092c3f;
+}
+#blog-section .blog-section .blog-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+#blog-section .blog-section .blog-text {
+    padding-bottom: 60px;
+}
+#blog-section .blog-section .blog-cards .blog-text-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#blog-section .blog-section .blog-cards .blog-card {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+#blog-section .blog-section .blog-cards .blog-card img {
+  width: 100%;
+}
+#blog-section .blog-section .blog-cards .blog-card .text {
+  padding: 0 60px 30px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+}
+#blog-section .blog-section .blog-cards .blog-card .text h1 {
+  font-size: 1.7rem;
+  color: #092c3f;
+  width: 70%;
+}
+#blog-section .blog-section .blog-cards .blog-card .text p {
+  color: #092c3f;
+  width: 70%;
+}
+#blog-section .blog-section .blog-cards .img-li ul {
+  background-color: rgb(219, 219, 219);
+  position: absolute;
+  bottom: 180px;
+  padding: 15px 75px;
+}
+#blog-section .blog-section .blog-cards .img-li ul li {
+  color: #092c3f;
+}

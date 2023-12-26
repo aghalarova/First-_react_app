@@ -1,0 +1,11 @@
+table {
+  border-collapse: collapse;
+}
+table thead th {
+  padding: 0.5rem 1rem;
+  border: 1px solid red;
+}
+table tbody td {
+  border: 1px solid red;
+  padding: 0.5rem 1rem;
+}/*# sourceMappingURL=index.css.map */

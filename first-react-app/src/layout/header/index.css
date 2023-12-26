@@ -1,0 +1,26 @@
+header {
+  background-color: rgb(226, 226, 226);
+}
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+header .header h2 {
+  color: rgb(82, 7, 167);
+}
+header .header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+header .header nav ul li:hover {
+  background-color: aqua;
+  padding: 3px;
+  border-radius: 10px;
+}
+header .header nav ul li:hover a {
+  color: rgb(82, 7, 167);
+}/*# sourceMappingURL=index.css.map */

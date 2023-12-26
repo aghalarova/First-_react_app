@@ -1,0 +1,22 @@
+#section-red {
+  background-image: url("../../images/section_bg03.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+.section-red{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+#section-red .section-red  h1{
+  font-size: 2.8rem;
+  color: white;
+  width: 40%;
+}
+.section-red-btn{
+    background-color: rgb(7, 16, 99);
+    color: white;
+}

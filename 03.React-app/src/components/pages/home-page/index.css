@@ -1,7 +1,7 @@
 #section {
   height: 120vh;
   padding-top: 250px;
-  background-color: #e5e5e5;
+  background-color: #f7f7f7;
 }
 #section .section {
   display: flex;
@@ -36,12 +36,10 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
-#section .section .cards .card h2{
+#section .section .cards .card h2 {
   color: #041823;
-
 }
 #section .section .cards .card p {
   width: 60%;
   color: #092c3f;
-
 }
