@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import LogoOne from "../../images/logo1.png";
-const HomePage = () => {
+const ServicesPage = () => {
   return (
     <section id="section">
       <div className="container">
@@ -40,4 +40,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default ServicesPage;
