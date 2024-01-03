@@ -1,21 +1,22 @@
 import "./App.css";
 import Header from "./layouts/header";
-import Footer from "./layouts/footer";
-import HomePage from "./components/pages/home-page";
 import AboutPage from "./components/pages/about-page";
-import MembersPage from "./components/pages/members-pages";
-import AboutRedPage from "./components/pages/about-2-page";
+import ServicesPage from "./components/pages/services-page";
 import BlogPage from "./components/pages/blog-page";
+import Footer from "./layouts/footer";
+import { Route, Routes } from "react-router-dom";
+import NotFound from "./components/pages/not-page";
 
 function App() {
   return (
     <>
       <Header />
-      <HomePage />
-      <AboutPage />
-      <MembersPage />
-      <AboutRedPage />
-      <BlogPage />
+      <Routes>
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
       <Footer />
     </>
   );

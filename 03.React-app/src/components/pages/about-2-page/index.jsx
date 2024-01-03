@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import FooterButton from "../../button";
-const AboutRedPage = () => {
+const AboutPageTwo = () => {
   return (
     <section id="section-red">
       <div className="container">
@@ -17,4 +17,4 @@ const AboutRedPage = () => {
   );
 };
 
-export default AboutRedPage;
+export default AboutPageTwo;
