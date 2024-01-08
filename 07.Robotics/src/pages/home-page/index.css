@@ -1,0 +1,29 @@
+#home-section {
+  background-image: url("../../components/images/banner-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#home-section .section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+#home-section .section .left h1 {
+  font-size: 3.8rem;
+  width: 90%;
+  color: white;
+  font-weight: 300;
+}
+#home-section .section .left p {
+  color: white;
+}
+#home-section .section .left,
+#home-section .section .right {
+  width: 50%;
+}
+#home-section .section .right img {
+  width: 100%;
+}
